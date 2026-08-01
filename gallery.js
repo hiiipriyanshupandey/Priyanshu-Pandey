@@ -58,6 +58,10 @@ function loadMedia(index) {
 const item = mediaFiles[index];
 const path = `${folder}/${item.file}`;
 
+console.log(currentFriend);
+console.log(folder);
+console.log(mediaFiles);
+    
 console.log(folder);
 console.log(path);
 
