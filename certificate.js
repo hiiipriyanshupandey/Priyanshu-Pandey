@@ -82,7 +82,7 @@ function loadFriendPhoto(){
     }
 
     photo.src =
-    `assets/images/${folder}/1.${photoFormats[formatIndex]}`;
+`${folder}/1.${photoFormats[formatIndex]}`;
 
 }
 
