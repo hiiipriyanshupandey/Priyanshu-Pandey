@@ -81,7 +81,8 @@ function loadFriendPhoto(){
 
     }
 
-    photo.src = "mansi/1.jpeg";
+    photo.src = `${folder}/1.${photoFormats[formatIndex]}`;
+    
 }
 
 photo.onerror = ()=>{
