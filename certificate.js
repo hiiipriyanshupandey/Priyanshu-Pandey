@@ -81,7 +81,8 @@ function loadFriendPhoto(){
 
     }
 
-    photo.src = `${folder}/1.${photoFormats[formatIndex]}`;
+    console.log(currentFriend);
+console.log(currentFriend.folder);
     
 }
 
