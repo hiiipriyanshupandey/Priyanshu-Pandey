@@ -58,6 +58,9 @@ function loadMedia(index) {
 const item = mediaFiles[index];
 const path = `${folder}/${item.file}`;
 
+console.log(folder);
+console.log(path);
+
         // -------------------------------
     // IMAGE
     // -------------------------------
