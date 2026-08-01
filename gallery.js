@@ -55,8 +55,8 @@ function loadMedia(index) {
         return;
     }
 
-    const item = mediaFiles[index];
-    const path = `assets/images/${folder}/${item.file}`;
+const item = mediaFiles[index];
+const path = `${folder}/${item.file}`;
 
         // -------------------------------
     // IMAGE
