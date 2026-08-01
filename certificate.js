@@ -81,8 +81,8 @@ function loadFriendPhoto(){
 
     }
 
-    photo.src =
-`${folder}/1.${photoFormats[formatIndex]}`;
+    photo.src = `${folder}/1.$
+    {photoFormats[formatIndex]}`;
 
 }
 
