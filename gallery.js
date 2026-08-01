@@ -73,7 +73,7 @@ console.log(path);
 
         const img = document.createElement("img");
 
-        img.src = "mansi/1.jpeg";
+        img.src = path;
         img.alt = currentFriend.name;
         img.loading = "lazy";
         img.draggable = false;
